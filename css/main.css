@@ -1,1 +1,334 @@
 
+body {
+    background-color: rgb(245, 245, 248);
+  }
+  header {
+   text-align:center;
+   background-color: #f3c57b;
+   margin: 0pt;
+   padding: 2.5pt;
+  }
+  header a {
+    margin-left: 30pt;
+    color: rgb(72, 68, 68);
+    
+   }
+
+ a {
+  color: black;
+  font-style:normal;
+  margin: 48px;
+text-decoration: none;
+font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+  nav2 H2 {
+    color: rgb(5, 6, 5);
+    text-align:left;
+    margin: 1.5px;
+    margin-right: 54px;
+   margin-left: 4px;
+    display: inline-flex;
+    text-transform: capitalize;
+    font-family:polly 
+    
+    
+  }
+ 
+  
+  div nav a {
+    margin: 10pc;
+    color: rgb(157, 151, 151);
+    font-weight:lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+  } 
+
+div {
+    style="border-left: 2px solid black; height: 100px;
+    background-color: red;
+
+
+    style="display: flex; align-items: center;
+ }
+    p 
+        Left Content
+
+    div {
+        style="border-left: 2px red; height: 50px; margin: 0 10px;
+       
+      }
+
+  .thin-line {
+    border: none;       /* Uklanja podrazumevanu ivicu */
+    height: 1px;        /* Postavlja tanku liniju */
+    background-color: rgb(221, 193, 122); /* Boja linije */
+    width: 100%;        /* Linija pokriva punu širinu */
+}
+
+
+
+div{
+  text-align: right;
+  display:list-item;
+  
+}
+
+  p{
+   display:contents;
+   font-size:large;
+   font-weight:super thin;
+   font-style:normal;
+   s
+  
+   
+}
+div span{
+  color: #5447;
+  margin-top: 15pt;
+  background: linear-gradient(to right, #f8f6f5, #f3c57b); 
+  padding-top: 7.5pt;
+  padding-bottom: 1pt;
+  font-weight:super thin;
+  padding-left: 20pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  
+  
+  
+}
+div  i {
+  
+  margin-top: 3pt;
+  padding 1pt;
+
+ 
+}
+
+nav{
+  text-align: center;
+  padding-bottom: 15px;
+  padding: 10px;
+text-transform: lowercase;
+
+
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Poravnava sve u visini */
+  gap: 30px; /* Razmak između linkova, linije i slike */
+  list-style-type: none; 
+    
+}
+
+
+
+.links ul {
+  list-style-type: none; /* Uklanja tačkice sa liste */
+  padding-left: 0pc;
+  background: linear-gradient(to right, #f3c57b, #f8f6f5); /* Početna i krajnja boja */
+ text-align:left;
+ margin-left: 3.3pc;
+ margin-top: 2pc;
+}
+
+.links li {
+  margin-bottom: 20px; /* Razmak između linkova */
+  list-style-type: none; 
+  
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  margin-left:2px ;
+}
+
+.line {
+  width: 1px; /* Debljina linije */
+  height: 290px; /* Visina linije (može se prilagoditi) */
+  background-color: rgb(221, 193, 122);
+  padding-top: 29px;
+}
+
+
+
+.image-container {
+  position: relative; /* Omogućava apsolutno pozicioniranje teksta */
+  display: inline-block;
+}
+
+.image-container img {
+  width: 880px; /* Prilagođava sliku */
+  height: 315px;
+  margin-top: 3px;
+
+}
+
+.text-overlay {
+  position: absolute;
+  top: 45%; /* Centriranje po vertikali */
+  left: 80%; /* Centriranje po horizontali */
+  transform: translate(-20%, -50%); /* Precizno centriranje */
+  color: black; /* Boja teksta */
+  font-size: 28px;
+  font-family:joan;
+  font-weight: medium;
+  margin: 5px;
+  margin-right: 0pt;
+  padding: 1px 1px;
+display: flex;
+}
+h3{
+  text-align: center;
+  margin-top: 46px;
+  font-family: polly;
+  font-weight:lighter;
+  color: rgb(238, 181, 116);
+}
+span h4{
+  text-align: center;
+  font-size: 40px;
+  font-weight:lighter;
+  
+  margin-top: 20px;
+  margin-bottom: 38px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.image-scroll {
+  display: flex;
+  overflow-x: auto; /* Omogućava horizontalni scroll */
+  white-space: nowrap;
+  gap: 50px; /* Razmak između slika */
+  padding: 20px;
+  scroll-snap-type: x mandatory; /* Glatko pomeranje */
+  
+}
+
+.image-scroll img {
+  width: 200px; /* Postavi željenu širinu */
+  height: 150px;
+  scroll-snap-align: center; /* Poravnava slike pri scrollu */
+  border-radius: 10px; /* Zaobljeni uglovi (opciono) */
+
+}
+.image-scroll {
+  
+}
+
+span .thin-line {
+  border: none;       /* Uklanja podrazumevanu ivicu */
+  height: 1px;        /* Postavlja tanku liniju */
+  background-color: rgb(221, 193, 122); /* Boja linije */
+  width: 100%;        /* Linija pokriva punu širinu */
+  margin-top: 100px;
+}
+h5 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: larger;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color:white;
+  text-shadow: black;
+}
+.image-scroll img {
+  width: 200px; /* Postavi željenu širinu */
+  height: 200px;
+  scroll-snap-align: center; /* Poravnava slike pri scrollu */
+  border-radius: 10px; /* Zaobljeni uglovi (opciono) */
+}
+.button-container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  display: flex;
+  margin-bottom: 5px;
+}
+main{
+  background: radial-gradient(circle, #f3c57b 0%, #f8f6f5 100%);
+}
+h6{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: larger;
+  font-weight: normal;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  ;
+}
+.full-width {
+  width: 100%;  /* Širina slike od kraja do kraja */
+  height: auto; /* Da se proporcija slike sačuva */
+  display: block; /* Uklanja prazan prostor ispod slike */
+}
+article.image-container {
+  background: url("../img/IMG_7644.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 400px; /* Visina bloka */
+margin-bottom: 50px;
+  justify-content: left;
+  align-items: left;
+  margin-top: 90px;
+}
+
+article.text-overlay {
+  color: rgb(234, 181, 128);
+  font-size: 74px;
+  font-family: polly;
+  font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 130px;
+    transform: translateY(-50%);
+    padding: 10px;
+    width: 20%; /* Ograničava širinu teksta da bi se prelomio */
+    word-wrap: break-word; /* Osigurava da duge reči ne prelaze ivicu */
+}
+
+H7{
+  color: #f3c57b;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+p h8{
+  color: black;
+ text-align: left;
+  margin-left: 250px;
+  margin-bottom: 70px;
+  display: block;
+  margin-top: 50px;
+  font-weight: 12pt;
+}
+p h9{
+  color: #f3c57b;;
+ text-align: left;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  display: block;
+  margin-top: 50px;
+  font-weight: 12pt;
+}
+footer p{
+  background-color: #d9b279;
+  padding: 40px 78px;
+width:fit-content;
+  margin-left: 0px;
+  align-items: start;
+}
+footer  p {
+  
+  max-height:max-content;
+  color: #f9f7f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: inline;
+  align-items:center;
+  
+}
